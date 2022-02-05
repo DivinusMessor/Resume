@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import Profile from './PortfolioContainer/Home/Profile';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <h1> My app</h1>
-      <h2>Test</h2>
-      <img src={logo} alt="image" />
+        <Profile/>
     </div>
   );
 }
